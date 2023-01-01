@@ -1,0 +1,32 @@
+.contai{
+  background-color: gray;
+  height: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+}
+
+.di{
+  background-color: rgb(92, 91, 91);
+  border-radius: 5px;
+  padding: 2rem;
+  margin-left: 35%;
+  width: 20%;
+  box-shadow: 2px 2px 3px 2px black;
+  margin-top: 15%;
+  height: 15%;
+}
+
+.back{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  &:hover{
+    font-size: 19px;
+    background-color: rgb(88, 87, 87);
+    color: whitesmoke;
+    box-shadow: 1px 1px black;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+}

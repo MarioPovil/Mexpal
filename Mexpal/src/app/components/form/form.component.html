@@ -1,0 +1,25 @@
+   <app-nav></app-nav>
+   <div class="body">
+   <main class="create">
+      <article class="links">
+        already have an account?
+        <a class="as" href="http://localhost:4200/LogIn"> Log in </a>
+      </article>
+      <article class="tes">
+        <h2> Tienes dudas acerca de nuestro producto? </h2>
+        <p> Tiens dudas acerca de nuestro producto? Registrate para una <br> conversación directa con nuestros ayudantes de <br> mantenimiento. </p>
+        <form class="form">
+          <label for="username" > Eliga UserName </label>
+          <input id="username" type="text" placeholder="UserName" name="name"  [(ngModel)]="user.Username" required>
+          <label for="email"> Su email </label>
+          <input id="email" type="email" placeholder="email address" name="email" [(ngModel)]="user.Email" required>
+          <label for="password"> Password </label>
+          <input id="password" type="password" placeholder="your password" name="password" [(ngModel)]="user.Password" required>
+          <input (click)="onRegister(user.Username,user.Email,user.Password)" type="submit" value="SignIn">
+        </form>
+      </article>
+      <section class="terminos">
+        <p>By clicking "sign up", you agree to our <a href="#">terms of services</a> and <a href="#"> privacy statement</a>. we'll occasionally send you account related emails.</p>
+      </section>
+    </main>
+   </div>

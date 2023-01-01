@@ -1,0 +1,120 @@
+
+.body{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url('https://www.infobae.com/new-resizer/qiTO4svRGBXBtxhFe1mLWxbs8qI=/992x661/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/AC4UPGZJPRHDDJW3ZROTM7OBIQ.jpg');
+  background-size: cover;
+  color: white;
+  opacity: 0.95;
+  font-family: sans-serif;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.create{
+  width: 100%;
+  max-width: 685px;
+  min-width: 320px;
+  border-radius:15px;
+  background-color: #1b3e2aa7;
+  padding: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+a{
+  color: #16e3c1;
+  text-decoration:none;
+}
+.links{
+  text-align: right;
+  font-size: 16px;
+}
+.tes{
+    width: 65%;
+  margin: 3rem auto;
+}
+.tes h2{
+  font-size: 26px;
+  text-align: center;
+}
+.tes p{
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+}
+.form{
+  margin-top: 2rem;
+}
+.form label{
+  font-weight:bold;
+  display: block;
+}
+.form input{
+  display: block;
+  border: none;
+}
+.form input[type="text"]{
+  background-color: rgba(0,0,0,0);
+    width: 100%;
+  border: 1px solid #495e8d;
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom:1.1rem;
+  color:white;
+}
+.form input[type="email"]{
+  background-color: rgba(0,0,0,0);
+    width: 100%;
+  border: 1px solid #495e8d;
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom:1.1rem;
+  color:white;
+}
+.form input[type="password"]{
+  background-color: rgba(0,0,0,0);
+    width: 100%;
+  border: 1px solid #495e8d;
+  border-radius: 6px;
+  padding: 1.2rem;
+  color:white;
+  margin-bottom:1.1rem;
+}
+.form input[type="submit"]{
+background: linear-gradient(var(--rotate), #5ddcff, #e68d13 43%, #4e00c2);
+  opacity: 1;
+  transition: opacity 3.5s;
+  animation: spin 2s linear infinite;
+  color: transparent;
+  width: 109%;
+  border-radius:6px;
+  color:white;
+  font-weight:bold;
+  padding: 1.5rem;
+  cursor: pointer;
+  font-size: 18px;
+}
+.terminos{
+  border-radius:10px;
+  background-color:#202e4e;
+  padding: 2rem;
+  width: 85%;
+  font-size:14px;
+  font-weight: bold;
+  line-height: 24px;
+  margin: 0 auto;
+  color: #8f9ab2;
+}
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
